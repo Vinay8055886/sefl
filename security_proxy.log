@@ -1,0 +1,20 @@
+2026-04-28 20:40:43,770 | PROXY_CRASH | 'allow'
+Traceback (most recent call last):
+  File "c:\Users\ramch\Downloads\main project\app.py", line 374, in main_proxy_gateway
+    STATS[decision] += 1
+    ~~~~~^^^^^^^^^^
+KeyError: 'allow'
+
+2026-04-28 20:40:44,117 | PROXY_CRASH | 'allow'
+Traceback (most recent call last):
+  File "c:\Users\ramch\Downloads\main project\app.py", line 374, in main_proxy_gateway
+    STATS[decision] += 1
+    ~~~~~^^^^^^^^^^
+KeyError: 'allow'
+
+2026-04-28 20:45:17,405 | IP: 127.0.0.1 | PATH: / | SCORE: 0.0 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/
+2026-04-28 20:45:17,928 | IP: 127.0.0.1 | PATH: /favicon.ico | SCORE: 0.0 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/favicon.ico
+2026-04-28 20:52:01,198 | IP: 127.0.0.1 | PATH: / | SCORE: 0.0 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/
+2026-04-28 20:52:04,929 | IP: 127.0.0.1 | PATH: / | SCORE: 0.0 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/
+2026-04-28 20:56:37,089 | IP: 127.0.0.1 | PATH: / | SCORE: 2.8 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/
+2026-04-28 20:57:00,855 | IP: 127.0.0.1 | PATH: /security-monitor | SCORE: 2.8 | DECISION: ALLOW | FORWARD: http://127.0.0.1:5000/security-monitor
